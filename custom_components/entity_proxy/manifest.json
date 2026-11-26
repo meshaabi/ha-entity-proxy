@@ -1,0 +1,11 @@
+{
+  "domain": "entity_proxy",
+  "name": "Entity Proxy",
+  "codeowners": ["@meshaabi"],
+  "config_flow": true,
+  "documentation": "https://github.com/meshaabi/ha-entity-proxy",
+  "integration_type": "helper",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/meshaabi/ha-entity-proxy/issues",
+  "version": "0.1.0"
+}

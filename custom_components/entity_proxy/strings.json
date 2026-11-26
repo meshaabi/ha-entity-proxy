@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pair two entities",
+        "description": "Choose two controls for the same physical device. The preferred control is used whenever it reports available.",
+        "data": {
+          "name": "Proxy name",
+          "preferred": "Preferred entity",
+          "fallback": "Fallback entity"
+        }
+      },
+      "reconfigure": {
+        "title": "Change proxy sources",
+        "description": "Choose two available controls for the same physical device.",
+        "data": {
+          "preferred": "Preferred entity",
+          "fallback": "Fallback entity"
+        }
+      }
+    },
+    "error": {
+      "missing_source": "Both source entities must be available during setup.",
+      "same_source": "Select two different entities.",
+      "different_domains": "Both entities must be switches, lights or thermostats of the same type.",
+      "proxy_source": "Select an original source entity.",
+      "already_configured": "This pair is already configured.",
+      "no_common_modes": "The thermostats must have at least one HVAC mode in common."
+    }
+  }
+}
